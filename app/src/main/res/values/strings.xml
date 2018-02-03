@@ -1,0 +1,84 @@
+<resources>
+    <string name="app_name">Quiz App</string>
+
+    <!-- Strings on the main page of the app [CHAR LIMIT = NONE] -->
+    <string name="start">Start</string>
+    <string name="check_knowledge">
+        Are you ready to check your knowledge about German Bundesliga?
+    </string>
+    <string name="get_trophy">Try to get your trophy!</string>
+    <string name="check_your_score">Check your score</string>
+
+    <!-- Strings including questions and answers 1-10 [CHAR LIMIT = NONE] -->
+    <!-- IMPORTANT (NAMING SCHEME CONVENTION) "numberOfQuestion_numberOfAnswer_eventualTip" -->
+    <string name="first_question">
+        1. When did first ever season of the Bundesliga take place?
+    </string>
+    <string name="one_first_year">1960</string>
+    <string name="one_second_year">1963</string>
+    <string name="one_third_year">1958</string>
+    <string name="one_fourth_year">1965</string>
+
+    <string name="second_question">
+        2. Which of these clubs has never been relegated from the Bundesliga since it was created?
+    </string>
+    <string name="two_first_team">VfL Wolfsburg</string>
+    <string name="two_second_team">Borussia Dortmund</string>
+    <string name="two_third_team">Hamburger SV</string>
+    <string name="two_fourth_team">Bayer 04 Leverkusen</string>
+
+    <string name="third_question">
+        3. Which club has won the BL Championship the most times?
+    </string>
+    <string name="three_first_team">FC Bayern Munchen</string>
+    <string name="three_second_team">Schalke 04 Gelsenkirchen</string>
+    <string name="three_third_team">Bayer 04 Leverkusen</string>
+    <string name="three_fourth_team">Borussia Dortmund</string>
+
+    <string name="fourth_question">
+        4. Which player is the best scorer in the league history?
+    </string>
+    <string name="top_scorer_name">Type here his last name</string>
+
+    <string name="fifth_question">5. In stadium in which city is this clock?</string>
+    <string name="city_name_with_clock">Type here city name</string>
+
+    <string name="sixth_question">
+        6. What is the name of the biggest stadium in Germany? (over 80k places)
+    </string>
+    <string name="six_first_stadium">Allianz Arena</string>
+    <string name="six_second_stadium">Olympiastadion</string>
+    <string name="six_third_stadium">Signal Iduna Park</string>
+    <string name="six_fourth_stadium">BayArena</string>
+
+    <string name="seventh_question">
+        7. There is a law "50 + 1" in Germany league. Which 2 clubs are not apply to this?
+    </string>
+    <string name="seven_first_team">Borussia Dortmund</string>
+    <string name="seven_second_team">Hamburger SV</string>
+    <string name="seven_third_team">FC Bayern Munchen</string>
+    <string name="seven_fourth_team">Vfl Wolfsburg</string>
+    <string name="seven_fifth_team">Eintracht Frankfurt</string>
+    <string name="seven_sixth_team">Bayer 04 Leverkusen</string>
+    <string name="seven_seventh_team">RB Leipzig</string>
+    <string name="seven_eighth_team">TSG 1899 Hoffenheim</string>
+
+    <string name="eight_question">
+        8. Which club brings a real animal on their matches as a mascot?
+    </string>
+    <string name="eight_first_team">RB Leipzig</string>
+    <string name="eight_second_team">Hamburger SV</string>
+    <string name="eight_third_team">Vfl Wolfsburg</string>
+    <string name="eight_fourth_team">1. FC Koln</string>
+
+    <string name="ninth_question">9. What is the last name of this charismatic trainer?</string>
+    <string name="trainer_name">Type here his last name</string>
+
+    <string name="tenth_question">
+        10. What is the most famous derby match in Germany?
+    </string>
+    <string name="ten_first_derby">Revierderby</string>
+    <string name="ten_second_derby">Bavarian derby</string>
+    <string name="ten_third_derby">Rheinland</string>
+    <string name="ten_fourth_derby">Nordderby</string>
+</resources>

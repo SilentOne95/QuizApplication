@@ -1,0 +1,131 @@
+<resources>
+    <!--<style name="bundesliga_logo">-->
+    <!--<item name="android:layout_width">@dimen/logo_width</item>-->
+    <!--<item name="android:layout_height">@dimen/logo_height</item>-->
+    <!--<item name="android:layout_marginTop">@dimen/margin</item>-->
+    <!--<item name="android:layout_marginBottom">@dimen/margin</item>-->
+    <!--<item name="android:layout_gravity">center_horizontal</item>-->
+    <!--<item name="android:scaleType">fitCenter</item>-->
+    <!--</style>-->
+
+    <!-- Styles of pictures -->
+    <style name="ball">
+        <item name="android:layout_width">@dimen/ball_width</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/margin</item>
+        <item name="android:layout_marginBottom">@dimen/margin</item>
+        <item name="android:scaleType">fitCenter</item>
+        <item name="android:adjustViewBounds">true</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+    </style>
+
+    <style name="clock">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:scaleType">fitStart</item>
+        <item name="android:layout_margin">20dp</item>
+        <item name="android:adjustViewBounds">true</item>
+    </style>
+
+    <style name="trainer">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:scaleType">fitStart</item>
+        <item name="android:layout_margin">20dp</item>
+        <item name="android:adjustViewBounds">true</item>
+    </style>
+
+    <!-- Custom style for second screen of the app (questions not included) -->
+    <style name="titleString">
+        <item name="android:fontFamily">@font/secular_one</item>
+        <item name="android:textColor">#000</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="icon_trophy">
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:paddingBottom">@dimen/app_standard_padding</item>
+    </style>
+
+    <!-- Custom style for 2nd view of the app including basic resources -->
+    <style name="basicStyle">
+        <item name="android:fontFamily">@font/secular_one</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <!-- Custom style for questions 1-10 -->
+    <style name="quizQuestions" parent="basicStyle">
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_marginLeft">15dp</item>
+        <item name="android:layout_marginTop">15dp</item>
+        <item name="android:layout_marginRight">15dp</item>
+    </style>
+
+    <!-- Custom style for radio buttons (horizontal orientation) -->
+    <style name="radioButtonHorizontalFirst" parent="basicStyle">
+        <item name="android:layout_marginBottom">15dp</item>
+    </style>
+    <style name="radioButtonHorizontal" parent="radioButtonHorizontalFirst">
+        <item name="android:layout_marginLeft">5dp</item>
+    </style>
+
+    <!-- Custom style for radio buttons (vertical orientation) -->
+    <style name="radioButtonVertical" parent="basicStyle">
+        <item name="android:layout_marginLeft">10dp</item>
+    </style>
+    <style name="radioButtonVerticalLast" parent="radioButtonVertical">
+        <item name="android:layout_marginBottom">15dp</item>
+    </style>
+
+    <!-- Custom style for EditText -->
+    <style name="fieldEditText" parent="basicStyle">
+        <item name="android:textColorHint">@color/whiteColor</item>
+        <item name="android:inputType">textCapWords</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_marginBottom">15dp</item>
+        <item name="android:maxLength">20</item>
+        <item name="android:focusableInTouchMode">true</item>
+        <item name="android:imeOptions">actionDone</item>
+    </style>
+
+    <!-- Style of the view 1 dp wide (line in 7th question) -->
+    <style name="whiteLine">
+        <item name="android:layout_width">@dimen/one_dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:color">@color/whiteColor</item>
+        <item name="android:layout_margin">@dimen/five_dp</item>
+    </style>
+
+    <!-- Custom normal button style -->
+    <style name="startButton">
+        <item name="android:background">@drawable/rounded_button</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:textSize">@dimen/text_size_button</item>
+        <item name="android:layout_marginTop">@dimen/margin_top_button</item>
+        <item name="android:layout_marginRight">@dimen/margin_button</item>
+        <item name="android:layout_marginLeft">@dimen/margin_button</item>
+        <item name="android:layout_marginBottom">@dimen/margin_button</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+    </style>
+
+    <style name="checkYourScoreButton">
+        <item name="android:background">@drawable/rounded_button_white</item>
+        <item name="android:textColor">@color/whiteColor</item>
+        <item name="android:textSize">@dimen/text_size_button</item>
+        <item name="android:layout_margin">@dimen/margin_button</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:paddingRight">5dp</item>
+        <item name="android:paddingLeft">5dp</item>
+    </style>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+</resources>
